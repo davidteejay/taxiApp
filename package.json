@@ -1,0 +1,29 @@
+{
+  "name": "taxiApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "native-base": "^2.7.2",
+    "react": "16.4.2",
+    "react-addons-update": "^15.6.2",
+    "react-native": "^0.56.0",
+    "react-native-google-places": "^2.5.2",
+    "react-native-maps": "^0.21.0",
+    "react-native-router-flux": "^4.0.1",
+    "react-native-vector-icons": "^5.0.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "redux-logger": "^3.0.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
